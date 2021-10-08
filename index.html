@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Desafio 1 Desafio Latam</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="Logo de Desafio Latam" class="main-logo"></a>
+          <h1 class="text-center">Desafio 1 de Desafio Latam</h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto me-5">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#inicio">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#diagrama">Diagrama de flujo</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div id="inicio" class="container">
+        <div class="row">
+            <div class="col-6 text-center"><div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">1. Realizar operaciones con dos números.</h5>
+                  <p class="card-text">Se le Pide al usuario que ingrese dos números diferentes y mayores a cero. Para ambos
+                    números.</p>
+                  <button id="btn-operacioneSimples" type="button">Start Program</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 text-center"><div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">2. Transforma C° a grados Kelvin y Fahrenheit.</h5>
+                  <p class="card-text">Se le pide al usuario grados Celsius ingresado como numero y sin simbolo y calcularlos en Kelvin y Farenheit.</p>
+                  <button id="btn-grados" type="button">Start Program</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 text-center"><div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">3. Presentar los dias en Dia/Semana/Año</h5>
+                  <p class="card-text">Se le piden los dias al usuario y los transforma de Años Semanas y Dias</p>
+                  <button id="btn-calendario" type="button">Start Program</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 text-center"><div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">4. Promedia y Suma 5 numeros.</h5>
+                  <p class="card-text">Se le piden 5 numeros al usuario, luego, se suma y se promedia.</p>
+                  <button id="btn-promediar" type="button">Start Program</button>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="box-muestra-de-resultados text-center">
+        <h2 id="muestra-idtitulo" class="muestra-titulo">Resultado de la Ejecucion</h2>
+        <p id="muestra-id1" class="muestra-texto">-</p>
+        <p id="muestra-id2" class="muestra-texto">Aqui se mostrara el resultado para todos los programas una vez ejecutados.</p>
+        <p id="muestra-id3" class="muestra-texto">-</p>
+    </div>
+    <div id="diagrama" class="text-center div-diagrama">
+        <h3 class="text-light">Diagrama de flujo</h3>
+        <p class="text-diagrama">Un diagrama de flujo que grafica las siguientes operaciones matemáticas: Suma,
+            Resta, División, Multiplicación y el módulo de un número, partiendo de dos números
+            ingresados por el usuario.</p>
+        <img class="img-diagrama" src="assets/img/image.jpg" alt="diagrama de flujo.">
+    </div>
+    <footer>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-6 text-center text-light">
+                    <h4>Cristobal Nicolas Gonzalez Ibañez</h4>
+                </div>
+                <div class="col-6 text-center">
+                    <img src="assets/img/logo.png" alt="Logo de Desafio Latam" class="main-logo">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

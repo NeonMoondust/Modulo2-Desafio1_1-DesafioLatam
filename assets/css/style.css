@@ -1,0 +1,77 @@
+/*Normalize------*/
+body,h1,h2,h3,h4,h5,p,section,article,div,nav,footer,ul,li,ol{margin: 0;padding: 0;}
+/*Normalize------*/
+nav{
+    border-bottom: solid #729E2E 5px;
+    box-shadow: 0px 5px 0 #507C0C;
+}
+body{
+    background-color: #35313C;
+}
+.main-logo{
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    margin-left: 2rem;
+}
+
+h1{
+    display: inline-block;
+    margin-left: 15rem;
+    color: #fff;
+}
+
+li{
+    margin-right: 1.5rem;
+}
+
+button{
+    width: 75%;
+    height: 2rem;
+    margin-top: 1rem;
+}
+.card{
+    margin-top: 2rem;
+    background-color: #1B1C20;
+    color: #fff;
+}
+p{
+    color: #729E2E;
+}
+h2{
+    color: #fff;
+    padding-top: .7rem;
+}
+.box-muestra-de-resultados{
+    height: 10rem;
+    width: 95%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1B1C20;
+}
+.muestra-texto{
+    margin-top: .5rem;
+}
+.div-diagrama{
+    width: 95%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1B1C20;
+}
+.text-diagrama{
+    margin-top: 1rem;
+    margin-right: 15rem;
+    margin-left: 15rem;
+}
+.img-diagrama{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+footer{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-top: solid #729E2E 5px;
+    box-shadow: 0px -5px 0 #507C0C;
+}
