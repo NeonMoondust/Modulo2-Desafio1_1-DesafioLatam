@@ -7,7 +7,7 @@ export function operacioneSimples(){
     do{
         numeros[0] = Number(prompt("Ingresa un numero mayor a 0. Numero 1 actual -> " + numeros[0]));
         numeros[1] = Number(prompt("Ingresa un numero mayor a 0. Numero 2 actual -> " + numeros[1]));
-    }while((numeros[0] == numeros[1]) || (numeros[0] <= 0) || (numeros[1] <= 0));
+    }while((numeros[0] == numeros[1]) || (numeros[0] <= 0) || (numeros[1] <= 0) || isNaN(numeros[0]) || isNaN(numeros[1]));
     //Resultados de las operaciones guardados en cada variable
     resultado_suma = numeros[0] + numeros[1];
     resultado_resta = numeros[0] - numeros[1];

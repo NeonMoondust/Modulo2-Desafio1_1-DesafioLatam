@@ -1,7 +1,10 @@
 //Exportacion del medoto para ser usado en mains.js
 export function calculo_de_grados() {
     //Captacion de datos al usuario y declaracion de variables junto a la formula para ser evaluada
-    let grados_celsius = Number(prompt("Ingresa su temperatura a evaluar en número sin símbolo(C°)"))
+    let grados_celsius;
+    do{
+        grados_celsius = Number(prompt("Ingresa su temperatura a evaluar en número sin símbolo(C°)"));
+    }while(isNaN(grados_celsius));
     let resultado_kelvin = grados_celsius + 273.15;
     let resultado_farenheit = (grados_celsius * 9 / 5) + 32;
     //Presentacion de los datos en el HTML

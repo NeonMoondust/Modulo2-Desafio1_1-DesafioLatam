@@ -7,6 +7,10 @@ export function promediar_sumar(){
     //Loop definido en 5 iteraciones para obtener datos del usuario
     for(var i = 0; i < 5; i++){
         numeros[i] = Number(prompt("Ingresar el numero al stack para sumar y promediar [" + (Number(i) + 1) + "]."));
+        if(isNaN(numeros[i])){
+            alert(`¡¡ERROR!! ingrese un numero valido. Dato ingresado [${numeros[i]}]`);
+            i--;
+        }
     }
     //Asignar una variable para cada resultado
     resultado_suma = numeros[0] + numeros[1] + numeros[2] + numeros[3] + numeros[4];
